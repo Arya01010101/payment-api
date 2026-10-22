@@ -28,6 +28,7 @@ pipeline {
         stage('deploy') {
             steps {
                 echo "Deployment requires approval"
+                echo "please give approval"
             }
         }
     }
